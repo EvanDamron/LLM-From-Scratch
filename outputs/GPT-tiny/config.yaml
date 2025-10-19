@@ -1,0 +1,16 @@
+output_dir: outputs/GPT-tiny
+tokenizer_encoding: gpt2
+model_config:
+  n_embd: 32
+  n_head: 2
+  n_positions: 128
+  n_layer: 4
+device: auto
+batch_size: 32
+seq_len: 128
+num_warmup_steps: 10
+num_training_steps: 2000
+grad_accumulation_steps: 1
+min_lr: 0.0001
+max_lr: 0.005
+weight_decay: 0.01

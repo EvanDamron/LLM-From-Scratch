@@ -1,0 +1,17 @@
+pyproject.toml
+src/llm_from_scratch.egg-info/PKG-INFO
+src/llm_from_scratch.egg-info/SOURCES.txt
+src/llm_from_scratch.egg-info/dependency_links.txt
+src/llm_from_scratch.egg-info/top_level.txt
+src/lm/__init__.py
+src/lm/generate.py
+src/lm/model.py
+src/lm/train.py
+src/lm/utils.py
+src/pytest_utils/__init__.py
+src/pytest_utils/decorators.py
+src/pytest_utils/pytest_plugin.py
+tests/test_env.py
+tests/test_generate.py
+tests/test_model.py
+tests/test_train.py

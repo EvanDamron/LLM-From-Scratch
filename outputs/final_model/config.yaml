@@ -1,0 +1,16 @@
+output_dir: outputs/best_1_long
+tokenizer_encoding: gpt2
+model_config:
+  n_embd: 128
+  n_head: 8
+  n_positions: 64
+  n_layer: 3
+device: auto
+batch_size: 64
+seq_len: 64
+num_warmup_steps: 130
+num_training_steps: 143000
+grad_accumulation_steps: 4
+min_lr: 0.0031158845179474876
+max_lr: 0.004088611152150656
+weight_decay: 0.0018476893321158043
